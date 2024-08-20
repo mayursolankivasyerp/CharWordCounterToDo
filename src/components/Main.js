@@ -53,17 +53,6 @@ export default function Main(props) {
           </button>
         </h1>
         <ul className="px-5 mt-3">
-          {/* <li>
-            <p className="mb-2 d-flex">
-              {first}{" "}
-              <button
-                className="ms-3 btn btn-sm btn-primary"
-                onClick={editLiText}
-              >
-                Edit
-              </button>
-            </p>
-          </li> */}
           {data.map((item) => (
             <li key={item.id}>
               <p className="mb-2">
